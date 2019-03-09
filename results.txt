@@ -1,0 +1,89 @@
+Welcome to the ATM Network System!
+By Rabia Mohiuddin [CS 151 - Spring 2019]
+Bank 111 Accounts
+Account #: 111-000001, Password: 1cust1, Expiration Date: 5 March 2029
+Account #: 111-000002, Password: 1cust2, Expiration Date: 5 March 2029
+Account #: 111-000003, Password: 1cust3, Expiration Date: 5 March 2029
+Account #: 111-000004, Password: 1cust4, Expiration Date: 5 March 2029
+Account #: 111-000005, Password: 1cust5, Expiration Date: 5 March 2029
+
+Bank 222 Accounts
+Account #: 222-000001, Password: 2cust1, Expiration Date: 5 March 2029
+Account #: 222-000002, Password: 2cust2, Expiration Date: 5 March 2029
+Account #: 222-000003, Password: 2cust3, Expiration Date: 5 March 2029
+Account #: 222-000004, Password: 2cust4, Expiration Date: 5 March 2029
+Account #: 222-000005, Password: 2cust5, Expiration Date: 5 March 2029
+
+
+ATMs Available
+ATM111-1
+      This ATM can withdraw a maximum of $2500.00
+
+
+ATM111-2
+      This ATM can withdraw a maximum of $5000.00
+
+
+ATM222-1
+      This ATM can withdraw a maximum of $1500.00
+
+
+ATM222-2
+      This ATM can withdraw a maximum of $10000.00
+
+
+Chose an ATM: 
+wrongtm
+ATM not found
+
+Chose an ATM: 
+ATM222-2
+Enter your card number
+wrongcard
+Card not found or is expired
+
+Chose an ATM: 
+ATM222-2
+Enter your card number
+222-000001
+Authorizing card
+Enter your password
+wrongpassword
+Invalid Password. Try Again
+
+2cust1
+Authorizing accepted
+
+Current Balance is $20000.00
+How much would you like to withdraw?
+11000
+Transaction could not be completed.
+Over Transaction Limit
+
+Please enter a new amount
+
+Current Balance is $20000.00
+How much would you like to withdraw?
+10000
+Transaction successful! $10000.00 deducted from account.
+New balance is $10000.00
+
+Current Balance is $10000.00
+How much would you like to withdraw?
+10000
+Transaction successful! $10000.00 deducted from account.
+New balance is $0.00
+
+Current Balance is $0.00
+How much would you like to withdraw?
+10
+Transaction could not be completed.
+Not enough balance
+
+Please enter a new amount
+
+Current Balance is $0.00
+How much would you like to withdraw?
+quit
+Thank you for visiting the 151 ATM Network System!
+We hope to see you again soon!
